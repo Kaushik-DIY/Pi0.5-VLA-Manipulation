@@ -4,7 +4,7 @@ This project demonstrates a terminal-driven Vision-Language-Action robotic manip
 
 A user can list supported LIBERO natural-language manipulation commands, manually enter one available instruction, and execute the corresponding manipulation task in simulation. The system maps the instruction to a LIBERO task ID, loads the pretrained/fine-tuned Pi0.5 policy, runs the rollout in a MuJoCo/robosuite environment, and saves the generated robot behavior as a video.
 
-## Final Demo
+## Demo
 
 Successful task:
 
@@ -15,7 +15,6 @@ Successful task:
 - Simulator: LIBERO / MuJoCo / robosuite
 - Execution platform: Kaggle GPU
 
-Demo video:
+[![Pi0.5 VLA robotic manipulation demo](media/pi05_demo_preview.gif)](media/pi05_libero_10_task9.mp4)
 
-```text
-media/pi05_libero_10_task9.mp4
+Click the preview to open the full MP4 demo.
