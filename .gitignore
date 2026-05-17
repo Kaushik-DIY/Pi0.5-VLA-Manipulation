@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+venv/
+miniforge3/
+conda/
+*.egg-info/
+
+# Secrets / credentials
+.env
+.env.*
+secrets.json
+kaggle.json
+hf_token.txt
+*token*
+*.pem
+*.key
+
+# Model/cache/checkpoint files
+.cache/
+huggingface/
+wandb/
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.bin
+
+# Temporary data
+tmp/
+temp/
+libero_datasets/
+datasets/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
